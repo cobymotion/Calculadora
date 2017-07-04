@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adhoctalent.course.aplicacion10.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp"
+        app:rowCount="4"
+        app:columnCount="4"
+        app:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/numero7"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="7"
+            android:clickable="true"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/numero8"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numero9"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="9"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numeroBorrar"
+            style="@style/AppTheme.Botones.ColorOperaciones"
+            android:text="C"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/numero4"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="4"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/numero5"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="5"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/numero6"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="6"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/numeroSuma"
+            style="@style/AppTheme.Botones.ColorOperaciones"
+            android:text="+"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+        <TextView
+            android:id="@+id/numero1"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numero2"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="2"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numero3"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numeroResta"
+            style="@style/AppTheme.Botones.ColorOperaciones"
+            android:text="-"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numero0"
+            style="@style/AppTheme.Botones.ColorNumeros"
+            android:text="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/numeroIgual"
+            style="@style/AppTheme.Botones.ColorOperaciones"
+            android:text="="
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+
+            />
+
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>
